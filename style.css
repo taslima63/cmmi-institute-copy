@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav-section */
+.nav-section{
+    min-height: 300px;
+}
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+}
+
+.sign-reg-btn{
+    background-color: #0466c8;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.sign-reg-btn a{
+    letter-spacing: 2px;
+}
+.sign-reg-btn:hover{
+    background-color: #0353a4;
+    color: white;
+   
+}
+
+.listTxt{
+    color: #0466c8;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.listTxt:hover{
+    color:  #0353a4;
+}
+.cart{
+    color: #0466c8;
+}
+
+/* my nav */
+
+.myNav{
+    min-height: 100px;
+    background-color: #0466c8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.myNav-expnd{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+.myNavText{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.nav-item:hover{
+    background-color: aquamarine;
+    height: 100%;
+}
